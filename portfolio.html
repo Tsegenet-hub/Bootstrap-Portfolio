@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+      .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+      }
+
+      .row.content {
+        height: 450px;
+      }
+
+      .sidenav {
+        padding-top: 20px;
+        background-color: #f1f1f1;
+        height: 100%;
+      }
+
+      footer {
+        background-color: #dfdd97;
+        padding: 25px;
+      }
+
+      @media screen and (max-width: 767px) {
+        .sidenav {
+          height: auto;
+          padding: 15px;
+        }
+        .row.content {
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>Tsegent Tekilemariam</h1>
+        <p>Full Stack Web Developer</p>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+      <div class="row">
+        <div class="col-sm-3">
+          <p style="text-align: center">NewsDash</p>
+          <img
+            style="opacity:.6;"
+            src="./assets/images/newsdash.png"
+            class="img-responsive"
+            style="width:100%"
+            alt="Image"
+          />
+        </div>
+
+        <div class="col-sm-3">
+          <p style="text-align: center">Weather Drink</p>
+          <img
+            style="opacity:.6;"
+            src="./assets/images/cocktail.png"
+            class="img-responsive"
+            style="width:100%"
+            alt="Image"
+          />
+        </div>
+
+        <div class="col-sm-3">
+          <p style="text-align: center">Crystal Collector</p>
+          <img
+            style="opacity:.6;"
+            src="./assets/images/crystal.png"
+            class="img-responsive"
+            style="width:100%"
+            alt="Image"
+          />
+        </div>
+
+        <div class="col-sm-3">
+          <p style="text-align: center">Photography</p>
+          <img
+            style="opacity:.6;"
+            src="./assets/images/photography.jpg"
+            class="img-responsive"
+            style="width:100%"
+            alt="Image"
+          />
+        </div>
+      </div>
+    </div>
+    <br /><br />
+
+    <footer class="container-fluid text-center">
+      <p style="size:10px;">&#169; Copyright, 2019, Tsegent Tekilemariam</p>
+    </footer>
+  </body>
+</html>
